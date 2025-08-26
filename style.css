@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #FFFFFF;
+  text-shadow: #02020D 0px 0px 2px;
+  overflow-x: hidden; 
+}
+
+.header {
+  background-image: url("safi1.jpg");
+  background-position: center 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#header-title{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  color: #02020D;
+  text-align: center;
+  font-size: large;
+  border: 1px solid white;
+  background-color: #757B7E;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.activities {
+  background-image: url("safi4.jpg");
+  background-position: center 60%;
+  padding: 40px 20px;
+  text-align: center;
+  height: auto; 
+  min-height: 400px; 
+}
+
+.activities h2 {
+  color: #FAD077;
+  border: 1px solid #FAD077;
+  display: inline-block;
+  margin: 0 auto 30px auto;
+  padding: 10px 20px;
+}
+
+.activities h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 3px #02020D;
+}
+
+.cards-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 5px solid #FAD077;
+  margin-right: 15px;
+}
+
+.card p {
+  text-align: left;
+  font-size: 0.9em;
+}
+
+.guide {
+  background-image: url("waves.jpg");
+  background-position: center 40%;
+  background-size: cover;
+  padding: 30px 20px;
+  text-align: center;
+  height: auto;
+}
+
+.guide h2 {
+  color: #FAD077;
+  border: 1px solid #FAD077;
+  display: inline-block;
+  margin: 10px auto 20px auto;
+  padding: 10px 20px;
+}
+
+.guide-content {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.guide img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border: 3px solid #FAD077;
+  margin-right: 20px;
+  flex-shrink: 0;
+  border-radius: 50%; 
+}
+
+.guide-text {
+  text-align: left;
+}
+
+.guide-text p {
+  margin-bottom: 10px;
+}
